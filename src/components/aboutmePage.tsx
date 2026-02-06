@@ -11,7 +11,7 @@ const About = () => {
 
    
       <div className="flex justify-center items-center flex-col sm:flex-row gap-8 lg:px-100">
-        <div className="w-32 h-32 md:w-150 md:h-50 rounded-full overflow-hidden">
+        <div className="w-32 h-32 md:w-120 md:h-50 rounded-full overflow-hidden">
           <img
             src={prof}
             alt="Profile Picture"

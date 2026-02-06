@@ -51,9 +51,7 @@ export type Project = {
   githubUrl: string;
 };
 
-/* =========================
-   SKILLS
-========================= */
+
 
 export const skills: Skill[] = [
   { name: "HTML", icon: <SiHtml5 size={40} />, level: 80 },
@@ -62,16 +60,15 @@ export const skills: Skill[] = [
   { name: "React", icon: <SiReact size={40} />, level: 65 },
   { name: "Redux Toolkit", icon: <SiRedux size={40} />, level: 60 },
   { name: "TanStack Query", icon: <SiReactquery size={40} />, level: 60 },
-  { name: "Node.js", icon: <FaNodeJs size={40} />, level: 30 },
-  { name: "Express", icon: <SiExpress size={40} />, level: 30 },
+  { name: "Node.js", icon: <FaNodeJs size={40} />, level: 20 },
+  { name: "Express", icon: <SiExpress size={40} />, level: 20 },
   { name: "MongoDB", icon: <SiMongodb size={40} />, level: 15 },
   { name: "Tailwind CSS", icon: <SiTailwindcss size={40} />, level: 75 },
+   { name: "GitHub", icon: <FaGithub size={40} />, level: 70 }
 ];
 
 
-/* =========================
-   PROJECTS (WITH LIVE + GITHUB)
-========================= */
+
 
 export const projects: Project[] = [
   {
@@ -128,9 +125,7 @@ export const projects: Project[] = [
   },
 ];
 
-/* =========================
-   SOCIAL LINKS
-========================= */
+
 
 export const socialLinks: SocialLink[] = [
   {
