@@ -34,7 +34,7 @@ const Card = () => {
       {projects.map((pro ) => (
         <div
           key={pro.id}
-          className='relative card group   rounded-t-3xl rounded transform  hover:shadow-[0_25px_60px_rgba(0,0,0,0.8)] transition-all duration-300 shadow bg-gray-900 text-amber-50'
+          className='relative card group   rounded-t-3xl rounded transform a hover:shadow-[0_25px_60px_rgba(0,0,0,0.8)] transition-all duration-300 shadow bg-gray-900 text-amber-50'
         >
           <div className='relative group rounded-t-xl overflow-hidden '>
             <img

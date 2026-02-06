@@ -80,7 +80,7 @@ export const projects: Project[] = [
     slug: "cinamaview",
     category: "Web App",
     tags: ["React", "Tailwind", "TanStack Query", "shadcn/ui"],
-    coverImage: "/public/img/45.png",
+    coverImage: "/img/45.png",
     shortDescription: "Responsive React web app integrated with a movie API.",
     fullDescription:
       "CinamaView is a responsive React application that fetches and displays movie data from an external API. The project focuses on clean UI, fast data fetching, and a smooth browsing experience.",
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     slug: "tasknest",
     category: "Web App",
     tags: ["React", "shadcn/ui", "Chart.js",'tailwind'],
-    coverImage: "/public/img/1212.png",
+    coverImage: "/img/1212.png",
     shortDescription: "A simple and clean task manager and to-do app.",
     fullDescription:
       "TaskNest is a task management web application built with React.",
@@ -106,7 +106,7 @@ export const projects: Project[] = [
     slug: "omnifood",
     category: "Landing Page",
     tags: ["HTML", "CSS", "JavaScript"],
-    coverImage: "/public/img/14.png",
+    coverImage: "/img/14.png",
     shortDescription: "Responsive landing page for a food delivery service.",
     fullDescription:
       "Omnifood is a fully responsive landing page built with vanilla HTML, CSS, and JavaScript.",
@@ -119,7 +119,7 @@ export const projects: Project[] = [
     slug: "dnd-food-ordering",
     category: "Web App",
     tags: ["React", "Tailwind"],
-    coverImage: "/public/img/Food.png",
+    coverImage: "/img/Food.png",
     shortDescription: "A simple food ordering application built with React.",
     fullDescription:
       "D&D is a lightweight food ordering application created with React and Tailwind CSS.",
