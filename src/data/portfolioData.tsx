@@ -81,8 +81,8 @@ export const projects: Project[] = [
     shortDescription: "Responsive React web app integrated with a movie API.",
     fullDescription:
       "CinamaView is a responsive React application that fetches and displays movie data from an external API. The project focuses on clean UI, fast data fetching, and a smooth browsing experience.",
-    liveUrl: "https://cinemaview.netlify.app",
-    githubUrl: "https://github.com/mt4030/cinemaview",
+    liveUrl: "https://cinema-view.netlify.app/",
+    githubUrl: "https://github.com/mt4030/moviehub2",
   },
   {
     id: 2,
