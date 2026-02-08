@@ -2,7 +2,6 @@
 
 Modern personal portfolio website built with **React**, **Tailwind CSS**, **GSAP** animations, and a clean, responsive design.
 
-Live Demo: https://your-portfolio-domain.netlify.app (replace with your actual deployed URL)
 
 ![Hero section preview](public/img/bg.png)  
 *(or replace with a better screenshot – recommended size: ~1200×600px)*
