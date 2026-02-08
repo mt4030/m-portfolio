@@ -39,7 +39,8 @@ const Card = () => {
           <div className='relative group rounded-t-xl overflow-hidden '>
             <img
               src={pro.coverImage}
-              alt="image"
+              alt="images"
+              loading="lazy" 
               className='w-full h-full  object-cover transition-all border-b-2 duration-300'
             />
           </div>

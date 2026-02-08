@@ -66,6 +66,14 @@ const Header = () => {
                   <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-amber-400 transition-all duration-300 group-hover:w-full" />
                 </li>
               ))}
+              <a
+  href="/resume/Mohsen_Resume.pdf"
+  download
+  className="rounded-md  text-amber-400 hover:text-amber-50  transition-all duration-300 group-hover:w-full "
+>
+  Download CV
+</a>
+
             </ul>
 
             {/* Mobile b */}
@@ -107,6 +115,14 @@ const Header = () => {
                 {item.label}
               </li>
             ))}
+            <a
+  href="/resume/Mohsen_Resume.pdf"
+  download
+  className="px-4 py-2 rounded-md border border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black transition"
+>
+  Download CV
+</a>
+
           </ul>
         </div>
       </nav>

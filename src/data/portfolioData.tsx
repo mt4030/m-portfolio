@@ -10,6 +10,9 @@ import {
   SiReactquery,
    SiExpress,
   SiMongodb,
+  SiTypescript,
+  SiNextdotjs
+
 } from "react-icons/si";
 
 import {
@@ -58,13 +61,15 @@ export const skills: Skill[] = [
   { name: "CSS", icon: <SiCss3 size={40} />, level: 70 },
   { name: "JavaScript", icon: <SiJavascript size={40} />, level: 50 },
   { name: "React", icon: <SiReact size={40} />, level: 65 },
-  { name: "Redux Toolkit", icon: <SiRedux size={40} />, level: 60 },
-  { name: "TanStack Query", icon: <SiReactquery size={40} />, level: 60 },
-  { name: "Node.js", icon: <FaNodeJs size={40} />, level: 20 },
+  { name: "Redux Toolkit", icon: <SiRedux size={40} />, level: 50 },
+  { name: "TanStack Query", icon: <SiReactquery size={40} />, level: 50 },
+  { name: "Tailwind CSS", icon: <SiTailwindcss size={40} />, level: 70 },
+  { name: "TypeScript",icon:<SiTypescript size={40}/> ,level: 15 },
+  { name: "Next.js",icon:<SiNextdotjs size={40}/>, level: 10 },
+   { name: "Node.js", icon: <FaNodeJs size={40} />, level: 20 },
   { name: "Express", icon: <SiExpress size={40} />, level: 20 },
   { name: "MongoDB", icon: <SiMongodb size={40} />, level: 15 },
-  { name: "Tailwind CSS", icon: <SiTailwindcss size={40} />, level: 75 },
-   { name: "GitHub", icon: <FaGithub size={40} />, level: 70 }
+   { name: "GitHub", icon: <FaGithub size={40} />, level: 60 },
 ];
 
 
@@ -76,8 +81,8 @@ export const projects: Project[] = [
     title: "CinamaView",
     slug: "cinamaview",
     category: "Web App",
-    tags: ["React", "Tailwind", "TanStack Query", "shadcn/ui"],
-    coverImage: "/img/45.png",
+    tags: ["React", "Tailwind", "TanStack Query", "shadcn/ui","TypeScript"],
+    coverImage: "/img/movie.jpg",
     shortDescription: "Responsive React web app integrated with a movie API.",
     fullDescription:
       "CinamaView is a responsive React application that fetches and displays movie data from an external API. The project focuses on clean UI, fast data fetching, and a smooth browsing experience.",
@@ -89,12 +94,12 @@ export const projects: Project[] = [
     title: "TaskNest",
     slug: "tasknest",
     category: "Web App",
-    tags: ["React", "shadcn/ui", "Chart.js",'tailwind'],
-    coverImage: "/img/1212.png",
+    tags: ["React", "shadcn/ui", "Chart.js",'tailwind',"TypeScript"],
+    coverImage: "/img/task.png",
     shortDescription: "A simple and clean task manager and to-do app.",
     fullDescription:
       "TaskNest is a task management web application built with React.",
-    liveUrl: "https://tasknest-tracker.netlify.app/home",
+    liveUrl: "https://tasknest-tracker.netlify.app",
     githubUrl: "https://github.com/mt4030/task-tracker",
   },
   {
@@ -103,7 +108,7 @@ export const projects: Project[] = [
     slug: "omnifood",
     category: "Landing Page",
     tags: ["HTML", "CSS", "JavaScript"],
-    coverImage: "/img/14.png",
+    coverImage: "/img/omni.png",
     shortDescription: "Responsive landing page for a food delivery service.",
     fullDescription:
       "Omnifood is a fully responsive landing page built with vanilla HTML, CSS, and JavaScript.",
@@ -116,13 +121,28 @@ export const projects: Project[] = [
     slug: "dnd-food-ordering",
     category: "Web App",
     tags: ["React", "Tailwind"],
-    coverImage: "/img/Food.png",
+    coverImage: "/img/Food.jpg",
     shortDescription: "A simple food ordering application built with React.",
     fullDescription:
       "D&D is a lightweight food ordering application created with React and Tailwind CSS.",
     liveUrl: "https://foodorderingdandd.netlify.app",
     githubUrl: "https://github.com/mt4030/food-ordering",
   },
+  {
+  id: 5,
+  title: "Mohsen's Portfolio",
+  slug: "mohsen-portfolio",
+  category: "Portfolio Website",
+  tags: ["React", "Tailwind", "GSAP"],
+  coverImage: "/img/port.jpg",
+  shortDescription:
+    "A modern personal portfolio showcasing projects, skills, and animations.",
+  fullDescription:
+    "A modern personal portfolio website built with React, TypeScript, and Tailwind CSS. It features smooth GSAP scroll-triggered animations, interactive skill cards, and a clean dark-themed, fully responsive design.",
+  liveUrl: "https://cheery-rolypoly-22bdfc.netlify.app", 
+  githubUrl: "https://github.com/mt4030/m-portfolio", 
+}
+
 ];
 
 

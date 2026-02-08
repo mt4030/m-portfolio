@@ -14,6 +14,7 @@ const About = () => {
         <div className="w-32 h-32 md:w-120 md:h-50 rounded-full overflow-hidden">
           <img
             src={prof}
+            loading="lazy" 
             alt="Profile Picture"
             className="w-full h-full object-cover"
           />
