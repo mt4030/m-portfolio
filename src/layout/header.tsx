@@ -67,7 +67,7 @@ const Header = () => {
                 </li>
               ))}
               <a
-  href="/resume/Mohsen_Resume.pdf"
+  href="/resume/mohsen-tebi.pdf"
   download
   className="rounded-md  text-amber-400 hover:text-amber-50  transition-all duration-300 group-hover:w-full "
 >
@@ -116,7 +116,7 @@ const Header = () => {
               </li>
             ))}
             <a
-  href="/resume/Mohsen_Resume.pdf"
+  href="/resume/mohsen-tebi.pdf"
   download
   className="px-4 py-2 rounded-md border border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black transition"
 >
