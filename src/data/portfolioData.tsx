@@ -89,6 +89,29 @@ export const projects: Project[] = [
     liveUrl: "https://cinema-view.netlify.app/",
     githubUrl: "https://github.com/mt4030/moviehub2",
   },
+
+{
+  id: 11,
+  title: "Game Info Platform ",
+  slug: "game-info-platform",
+  category: "Web App",
+  tags: [
+    "Next.js ",
+    "React Query",
+    "TypeScript",
+    "Tailwind CSS",
+    "Shadcn UI",
+    "Axios",
+  
+  ],
+  coverImage: "/img/gameinfo.jpg", 
+  shortDescription: "A modern Game Discovery Web Application with search, filtering, favorites, and bookmarks.*(api connection needs VPN)",
+  fullDescription:
+    "Game Info Platform is a modern web application built with Next.js 14 and React Query. It allows users to browse, search, filter, bookmark, and favorite games from the RAWG API. The app features authentication, a personalized dashboard, advanced filtering by genres, platforms, and tags, and persistent localStorage caching. The project demonstrates real-world frontend architecture, including modular components, global state management, API integration, pagination, and responsive UI design.",
+  liveUrl: "https://movie-info-20.netlify.app", 
+  githubUrl: "https://github.com/mt4030/frontend-skill-test", 
+}
+  ,
   {
     id: 2,
     title: "TaskNest",
