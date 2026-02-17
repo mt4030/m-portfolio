@@ -30,7 +30,7 @@ const Card = () => {
   }, []);
 
   return (
-    <div className='cards  grid grid-cols-1 md:grid-cols-2 md:px-80 mb-30 gap-15 md:gap-30 m-5'>
+    <div className='cards lg:px-80  grid grid-cols-1 md:grid-cols-2 md:px-50 mb-30 gap-15  md:gap-5 md:m-0 m-5'>
       {projects.map((pro ) => (
         <div
           key={pro.id}
