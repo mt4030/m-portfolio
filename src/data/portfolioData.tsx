@@ -108,7 +108,7 @@ export const projects: Project[] = [
   shortDescription: "A modern Game Discovery Web Application with search, filtering, favorites, and bookmarks.*(api connection needs VPN)",
   fullDescription:
     "Game Info Platform is a modern web application built with Next.js 14 and React Query. It allows users to browse, search, filter, bookmark, and favorite games from the RAWG API. The app features authentication, a personalized dashboard, advanced filtering by genres, platforms, and tags, and persistent localStorage caching. The project demonstrates real-world frontend architecture, including modular components, global state management, API integration, pagination, and responsive UI design.",
-  liveUrl: "https://movie-info-20.netlify.app", 
+  liveUrl: "https://game-info-20.netlify.app/", 
   githubUrl: "https://github.com/mt4030/frontend-skill-test", 
 }
   ,
