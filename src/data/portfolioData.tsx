@@ -162,9 +162,30 @@ export const projects: Project[] = [
     "A modern personal portfolio showcasing projects, skills, and animations.",
   fullDescription:
     "A modern personal portfolio website built with React, TypeScript, and Tailwind CSS. It features smooth GSAP scroll-triggered animations, interactive skill cards, and a clean dark-themed, fully responsive design.",
-  liveUrl: "https://cheery-rolypoly-22bdfc.netlify.app", 
+  liveUrl: "https://mohsentebi.netlify.app", 
   githubUrl: "https://github.com/mt4030/m-portfolio", 
+},
+  {
+  id: 6,
+  title: "CurrencyFlow",
+  slug: "CurrencyFlow",
+  category: "Currency converter Website",
+  tags: ["React", "Tailwind", "React Query",
+    "TypeScript",'axios'],
+  coverImage: "/img/c-c.png",
+  shortDescription:
+    "currency converter with current exchange rates and historical charts.",
+  fullDescription:
+    "Free currency converter with current exchange rates and historical charts. Convert USD, EUR, GBP, and other currencies easily.",
+  liveUrl: "https://currencyflow1.netlify.app", 
+  githubUrl: "https://github.com/mt4030/CurrencyFlow", 
 }
+
+
+
+
+
+
 
 ];
 
